@@ -1,0 +1,30 @@
+.container {
+    background: gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.test {
+    background: lightgreen;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* The different syntax's for "and" and "or" and how to apply them. */
+
+/* AND */
+@media screen and (max-width: 700px) and (max-height: 700px){
+    .test {
+        background: red;
+    }
+}
+
+/* OR */
+/* 
+@media screen and (max-width: 700px), screen and (max-height: 700px){
+    .test {
+        background: red;
+    }
+} 
+*/
